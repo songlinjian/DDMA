@@ -38,7 +38,7 @@ The properties of this conception of DDMA are as follows:
 * The number of DM operator is not limited. We may require permission to join to simplify the scalability issue (similar with permission chain).
 * Only one publish key (ZSK or KSK) is to be added to root zone if some kind of threshold signature scheme is used to support DNSSEC.
 * Diversity of source for root zone data. DM can independently retrieved root zone from different sources, like ICANN, root servers, TLD authoritative server, or some real time DNSDB.
-* Merit on Internet Governance. Root zone management (without registration) will be come a truly self-organized system with centralized entity. 
+* Merit on Internet Governance. Root zone management (without registration) will be come a truly self-organized system without centralized entity. 
 
 To achieve the goal, DDMA client should have functions listed below:
 
