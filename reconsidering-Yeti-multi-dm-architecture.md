@@ -1,10 +1,11 @@
+# Reconsidering Yeti's Multi-DM Architecture after PINZ Experiment
+
 ---
 layout: post
 title:  Reconsidering Yeti's Multi-DM Architecture after PINZ Experiment
 author: Davey Song
 categories: Yeti blog
 ---
-
 ## Introduction
 
 The Internet's Domain Name System(DNS) is an vital component of Internet infrastructure mapping human-readable names into Internet Protocol (IP) addresses. DNS is designed and built on a single root, known as the Root Server System including root zone generation and root zone distribution. As part of IANA function, DNS Root zone management has a long history([SAC067](https://www.icann.org/en/system/files/files/sac-067-en.pdf)) and experienced technical changes (IPv6, DNSSEC, anycast etc) as well as policy changes (IANA transition, new gTLD). None of previous changes violates the assumption that a centralized entity takes charge in one particular function role in the Root zone management. Take [DNSSEC at root level](http://www.root-dnssec.org/wp-content/uploads/2010/06/draft-icann-dnssec-arch-v1dot4.pdf) for example, VeriSign is the only Root Zone Maintainer(RZM) who maintain the ZSK, signs the zone taken from ICANN and distribute the zone to 13 root servers. 
