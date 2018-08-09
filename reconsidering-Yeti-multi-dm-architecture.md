@@ -37,7 +37,7 @@ The properties of this conception of DDMA are as follows:
 * Most notably, the system is fault-tolerant both on operation failures or malicious attack given no trust is required for each node in BFT-like system as long as the majority of nodes agree on each transaction (generating a new root zone in Yeti DM case).
 * The number of DM operator is not limited. We may require permission to join to simplify the scalability issue (similar with permission chain).
 * Only one publish key (ZSK or KSK) is to be added to root zone if some kind of threshold signature scheme is used to support DNSSEC.
-* Diversity of root zone data. DM can independently retrieved root zone from different sources, like ICANN, root servers, TLD authoritative server, or some real time DNSDB.
+* Diversity of source for root zone data. DM can independently retrieved root zone from different sources, like ICANN, root servers, TLD authoritative server, or some real time DNSDB.
 * Merit on Internet Governance. Root zone management (without registration) will be come a truly self-organized system with centralized entity. 
 
 To achieve the goal, DDMA client should have functions listed below:
