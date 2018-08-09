@@ -43,7 +43,7 @@ The properties of this conception of DDMA are as follows:
 To achieve the goal, DDMA client should have functions listed below:
 
 * Each DM client can generate root zone according to a specified and to-be-defined routine or guidance which guarantee the data consistency.
-* Each DM client can sign the data and share the data with others which is basic building block to achieve consensus on the to-be-published root zone.
+* Each DM client can sign the data and share the data with others which is basic building block of P2P network before achieving consensus on the to-be-published root zone.
 * A consensus algorithm should be run among each DM client so that majority of them can confirm a to-be-published root zone (may be added to a distributed ledge).
 * Most vital functions of DDMA is a sort of group signing scheme to fit DNSSEC context. It is required to provide a same interface for DNSSEC validating resolver. [Threshold signature scheme](https://en.wikipedia.org/wiki/Threshold_cryptosystem) provides basis primitives for that purpose producing  three tuple <one Public key, {secret shares}, one signature>. In proposed DDMA, each DM client is expected to sign the zone with its secret share and broadcast to other clients. *m* of *n* signatures can be transformed to the to-be-publish signature for each resource record according to the basic primitive of Threshold signature scheme. 
 
