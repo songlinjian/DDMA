@@ -1,2 +1,2 @@
-# Fault-tolerant Distribution Master Architecture (DDMA)
+# Fault-tolerant Distribution Master Architecture (FDMA)
 Reconsidering Yeti's Multi-DM Architecture after PINZ Experiment
