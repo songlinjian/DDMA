@@ -1,10 +1,10 @@
 # Fault-tolerent DNS and DNSSEC
 
-# Problem statement
+## Problem statement
 
-# Desirable property
+## Desirable property
 
-# concept and functions
+## concept and functions
 
 
 
